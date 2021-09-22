@@ -19,7 +19,7 @@ public class hasGroupsSizeX {
         }
         return x >1;
     }
-
+    //辗转相除法求最大公约数，这样就可以看出来可不可以有相同的长度
     private static int gcd(int x, int cnt) {
         return cnt==0?x:gcd(cnt,x%cnt);
     }
