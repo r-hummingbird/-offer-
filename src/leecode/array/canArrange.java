@@ -6,6 +6,7 @@ public class canArrange {
         int[] nums = new int[k];
         for(int i = 0;i < len;i ++){
             int temp = arr[i] % k;
+//            不能凑成对
             if(temp < 0){
                 temp += k;
             }
