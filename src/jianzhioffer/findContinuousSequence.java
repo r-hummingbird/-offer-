@@ -30,7 +30,7 @@ public class findContinuousSequence {
         for (int[] item:list){
             res[count++]=item;
         }
-        
+
         return res;
 
     }
