@@ -11,7 +11,7 @@ public class validateStackSequences {
             while (j<popped.length&&!stack.isEmpty()&&stack.peek()==popped[j]){
                 stack.pop();
                 j++;
-                
+
             }
         }
         return j==popped.length;
