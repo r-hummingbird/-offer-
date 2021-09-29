@@ -11,11 +11,9 @@ public class mySqrt {
             if (x/m<m){
 
                 max=m;
-                System.out.println(max+"max");
             }else {
 
                 res=m;
-                System.out.println(res+"res");
             }
         }
         return res;
