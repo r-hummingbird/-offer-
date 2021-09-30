@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class nextGreatestLetter {
     public static char nextGreatestLetter(char[] letters, char target) {
-        
+
         int length = letters.length;
         int low = 0, high = length - 1;
         // 开始二分查找
