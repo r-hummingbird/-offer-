@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class dicesProbability {
     public static double[] dicesProbability(int n) {
-        //n个骰子
+        //n个骰子,第一维表示是多少骰子，第二维表示是多少点数，数组的值表示是多少次
         int[][] dp=new int[n+1][6*n+1];
         double[] ans=new double[5*n+1];
         double all=Math.pow(6,n);
