@@ -8,15 +8,15 @@ public class twoSum {
 
             if(nums[left] + nums[right] < target)left++;
             else if(nums[left] + nums[right] > target)right--;
-            else return new int[] {nums[left], nums[right]};
+            else return new int[] {left, right};
 
         }
         return new int[0];
     }
 
     public static void main(String[] args) {
-        int[] nums={2,7,11,15};
-        int target=9;
+        int[] nums={1,2,4,6,10};
+        int target=8;
         int[] result=twoSum(nums,target);
         for (int rel:result){
             System.out.print(rel+" ");
